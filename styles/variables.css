@@ -1,1 +1,29 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --common-font-family: "Inter-Variable", sans-serif;
+  --common-font-weight: 410;
+  --header-font-weight: 715;
+  --additional-font-family: "PressStart2P", sans-serif;
+  --common-font-size: 18px;
+  --background-gradients: 
+    repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(to bottom, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
+  --items-background-color: #fff;
+  --items-border-color: #000;
+  --items-inline-size: clamp(23.4375rem, 16.2852rem + 30.5164dvw, 43.75rem);
+  --accent-color: #000;
+  --floppy-size: 21px;
+  --footer-button-direction: row;
+  --dialog-paddings: 30px;
+  --heart-contour-color: #000;
+  --animation-fill-color: #f00;
+}
+
+@media (width <= 375px) {
+  :root {
+    --floppy-size: 28px;
+    --footer-button-direction: column;
+    --dialog-paddings: 30px 40px;
+  }
+}
