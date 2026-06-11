@@ -32,7 +32,7 @@
   inline-size: var(--items-inline-size);
   block-size: clamp(20.4375rem, -14.1891rem + 105.1282dvh, 23rem);
   font-family: var(--additional-font-family);
-  text-transform: uppercase;  
+  text-transform: uppercase;
   background-color: var(--items-background-color);
   border: 2px solid var(--items-border-color);
   display: flex;
@@ -77,7 +77,7 @@
   position: relative;
   block-size: var(--items-inline-size);
   display: flex;
-  justify-content: end;  
+  justify-content: end;
   overflow: hidden;
 }
 
@@ -227,7 +227,6 @@
   padding: 17px 20px;
   border: 2px solid var(--items-border-color);
   line-height: 90%;
-  display: flex;
   flex-direction: var(--footer-button-direction);
   gap: 8px;
 }
