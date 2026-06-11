@@ -1,4 +1,4 @@
 # Закрывающий тег
-https://github.com/MoriYandex/zakrivayuschiy-teg-f  
+https://moriyandex.github.io/zakrivayuschiy-teg-f/  
 Декорирование, анимация, SVG  
 Версия 1
