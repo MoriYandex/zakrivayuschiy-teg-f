@@ -73,6 +73,11 @@
   padding: 4px 10px;
 }
 
+.main__card-header {
+  font-variation-settings: 'wght' var(--header-font-weight);
+  font-size: var(--common-font-size);
+}
+
 .main__card-image-container {
   position: relative;
   display: flex;

@@ -3,7 +3,7 @@
   --common-font-family: "Inter-Variable", sans-serif;
   --common-font-weight: 410;
   --header-font-weight: 715;
-  --additional-font-family: "PressStart2P", sans-serif;
+  --additional-font-family: "PressStart2P", monospace;
   --common-font-size: 18px;
   --background-gradients: 
     repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
